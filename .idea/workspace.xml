@@ -4,20 +4,146 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baf878d8-977b-4406-9779-bb5b0514ea17" name="Changes" comment="" />
+    <list default="true" id="baf878d8-977b-4406-9779-bb5b0514ea17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/AskPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/BO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/ChangeProfilePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/HomePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/LoginPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/UserSearchPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/allure/AllureListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/CustomFieldDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/TextArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowAskQuestionTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowChangeUserTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowLoginTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowSearchUserTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2ARqca1ki3C4cti8jySryCMjhee" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gered/IdeaProjects/AT_Framework/src/test/java/ui&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gered\IdeaProjects\AT_Framework\src\test\java\ui" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.StackOverflowChangeUserTC">
+    <configuration name="StackOverflowAskQuestionTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AT_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.StackOverflowAskQuestionTC" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackOverflowChangeUserTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AT_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.StackOverflowChangeUserTC" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackOverflowLoginTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AT_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.StackOverflowLoginTC" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackOverflowTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AT_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.StackOverflowTC" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.StackOverflowChangeUserTC" />
+        <item itemvalue="TestNG.StackOverflowAskQuestionTC" />
+        <item itemvalue="TestNG.StackOverflowLoginTC" />
+        <item itemvalue="TestNG.StackOverflowTC" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,5 +154,16 @@
       <updated>1654982830322</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
