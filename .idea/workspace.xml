@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baf878d8-977b-4406-9779-bb5b0514ea17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/AskPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/BO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/ChangeProfilePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/HomePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/LoginPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/UserSearchPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/allure/AllureListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/CustomFieldDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/TextArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowAskQuestionTC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowChangeUserTC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowLoginTC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowSearchUserTC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowTC.java" afterDir="false" />
+    <list default="true" id="baf878d8-977b-4406-9779-bb5b0514ea17" name="Changes" comment="AT_Framework">
+      <change afterPath="$PROJECT_DIR$/Perfomance/ReadME.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +37,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/gered/IdeaProjects/AT_Framework/src/test/java/ui&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
@@ -153,6 +138,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654982830322</updated>
     </task>
+    <task id="LOCAL-00001" summary="AT_Framework">
+      <created>1655060493061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655060493061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,5 +158,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AT_Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="AT_Framework" />
   </component>
 </project>
