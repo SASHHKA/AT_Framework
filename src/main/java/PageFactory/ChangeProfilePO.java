@@ -60,13 +60,14 @@ public class ChangeProfilePO {
     }
     public void fillRealName(String value) {
         realNameInput.sendData(value);
+        realNameInput.takeInput();
     }
 
     public void clickEdit () {
         editButton.pressMe(new WebDriverWait(driver, Duration.ofSeconds(0)));
     }
-    public void clickSave () {
-        saveButton.pressMe(new WebDriverWait(driver, Duration.ofSeconds(2)));
-    }
+//    public void clickSave () {
+//        saveButton.pressMe(new WebDriverWait(driver, Duration.ofSeconds(2)));
+//    }
 
 }

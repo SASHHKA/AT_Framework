@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf878d8-977b-4406-9779-bb5b0514ea17" name="Changes" comment="AT_Framework">
-      <change afterPath="$PROJECT_DIR$/Perfomance/ReadME.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/TrelloHTTPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/LoginData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/HibernateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/ResponseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/models/CreateOrganizationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/models/GetOrganizationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/models/PutOrganizationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/randomizer/Randomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/TrelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/UpdateOrganizationTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/rest/TrelloBoardTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/rest/TrelloCardTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/rest/TrelloOrganizationTC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Perfomance/Load.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/Perfomance/Load.jmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageFactory/BO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageFactory/BO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageFactory/ChangeProfilePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageFactory/ChangeProfilePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageFactory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageFactory/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/StackOverflowChangeUserTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowChangeUserTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/StackOverflowLoginTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/StackOverflowLoginTC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +50,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2ARqca1ki3C4cti8jySryCMjhee" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,11 +63,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/gered/IdeaProjects/AT_Framework/src/test/java/ui&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -52,23 +80,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.StackOverflowChangeUserTC">
-    <configuration name="StackOverflowAskQuestionTC" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AT_Framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.StackOverflowAskQuestionTC" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StackOverflowChangeUserTC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AT_Framework" />
       <extension name="coverage">
@@ -86,16 +97,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOverflowLoginTC" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TrelloBoardTC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AT_Framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ui.*" />
+          <option name="PATTERN" value="api.rest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.StackOverflowLoginTC" />
+      <option name="PACKAGE_NAME" value="api.rest" />
+      <option name="MAIN_CLASS_NAME" value="api.rest.TrelloBoardTC" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -103,16 +114,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOverflowTC" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TrelloCardTC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AT_Framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ui.*" />
+          <option name="PATTERN" value="api.rest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.StackOverflowTC" />
+      <option name="PACKAGE_NAME" value="api.rest" />
+      <option name="MAIN_CLASS_NAME" value="api.rest.TrelloCardTC" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrelloOrganizationTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AT_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.rest" />
+      <option name="MAIN_CLASS_NAME" value="api.rest.TrelloOrganizationTC" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateOrganizationTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AT_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.UpdateOrganizationTC" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -123,9 +168,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.StackOverflowChangeUserTC" />
-        <item itemvalue="TestNG.StackOverflowAskQuestionTC" />
-        <item itemvalue="TestNG.StackOverflowLoginTC" />
-        <item itemvalue="TestNG.StackOverflowTC" />
+        <item itemvalue="TestNG.TrelloCardTC" />
+        <item itemvalue="TestNG.TrelloBoardTC" />
+        <item itemvalue="TestNG.TrelloOrganizationTC" />
+        <item itemvalue="TestNG.UpdateOrganizationTC" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655060493061</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AT_Framework">
+      <created>1655101958837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655101958837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,5 +215,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AT_Framework" />
     <option name="LAST_COMMIT_MESSAGE" value="AT_Framework" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

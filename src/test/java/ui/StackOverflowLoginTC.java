@@ -3,6 +3,7 @@ package ui;
 import PageFactory.BO;
 import PageFactory.DriverFactory;
 import allure.AllureListener;
+import hibernate.HibernateService;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -15,17 +16,7 @@ public class StackOverflowLoginTC {
 
     @DataProvider
     public Object[][] testDP () {
-        return new Object[][] {
-                {
-                    "test1", "password1"
-                },
-                {
-                    "test2", "password2"
-                },
-                {
-                    "heredchuk04@mail.ru", "%cYH73Fg_vsY7VR"
-                }
-        };
+        return HibernateService.getLoginTestData();
     }
 
     @BeforeTest

@@ -31,7 +31,7 @@ public class StackOverflowChangeUserTC {
 
     @AfterTest
     void closeDriver() {
-        driver.close();
-        driver.quit();
+//        driver.close();
+//        driver.quit();
     }
 }

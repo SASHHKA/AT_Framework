@@ -86,7 +86,7 @@ public class BO {
         changeProfilePO.fillArea("!!!!!!!Test!!!!!!!");
         changeProfilePO.fillGit("GitTest");
         changeProfilePO.fillRealName("Steave Jobs");
-        changeProfilePO.clickSave();
+//        changeProfilePO.clickSave();
         return this;
     }
 }
